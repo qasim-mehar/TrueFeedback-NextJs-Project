@@ -1,5 +1,5 @@
 import { z } from "zod";
 
-export const verificationCodeValidation = z
+export const verificationCodeSchema = z
   .string()
   .length(6, "Verification code must be 6 digits");
